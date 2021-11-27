@@ -1,0 +1,40 @@
+body {
+    background-color: #1269b5;
+    color: black;
+}
+
+p {
+    font-size: 20px;
+}
+
+canvas {
+    margin-top: 50px;
+}
+
+.stats {
+    position: absolute;
+    top: 20;
+    left: 20;
+    text-align: left;
+}
+
+#drawObj {
+    font-weight: bold;
+    color: #cf8517;
+    text-shadow: 1px 1px #383531;
+}
+
+button {
+    height: 50px;
+    border-radius: 5px;
+    background-color: #1091cc;
+    color: #2c2d9c;
+    outline: none;
+    border: none;
+    transition: 500ms;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #5e8fa6;
+}
